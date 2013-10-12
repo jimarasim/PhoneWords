@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E25338B2180920BA00870CC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E25338B1180920BA00870CC7 /* Foundation.framework */; };
+		E25338B4180920BA00870CC7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E25338B3180920BA00870CC7 /* CoreGraphics.framework */; };
+		E25338B6180920BA00870CC7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E25338B5180920BA00870CC7 /* UIKit.framework */; };
+		E25338BC180920BA00870CC7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E25338BA180920BA00870CC7 /* InfoPlist.strings */; };
+		E25338BE180920BA00870CC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E25338BD180920BA00870CC7 /* main.m */; };
+		E25338C2180920BA00870CC7 /* PhoneWordsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E25338C1180920BA00870CC7 /* PhoneWordsAppDelegate.m */; };
+		E25338C5180920BA00870CC7 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E25338C3180920BA00870CC7 /* Main_iPhone.storyboard */; };
+		E25338C8180920BA00870CC7 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E25338C6180920BA00870CC7 /* Main_iPad.storyboard */; };
+		E25338CB180920BA00870CC7 /* PhoneWordsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E25338CA180920BA00870CC7 /* PhoneWordsViewController.m */; };
+		E25338CD180920BA00870CC7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E25338CC180920BA00870CC7 /* Images.xcassets */; };
+		E25338D4180920BA00870CC7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E25338D3180920BA00870CC7 /* XCTest.framework */; };
+		E25338D5180920BA00870CC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E25338B1180920BA00870CC7 /* Foundation.framework */; };
+		E25338D6180920BA00870CC7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E25338B5180920BA00870CC7 /* UIKit.framework */; };
+		E25338DE180920BA00870CC7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E25338DC180920BA00870CC7 /* InfoPlist.strings */; };
+		E25338E0180920BA00870CC7 /* PhoneWordsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E25338DF180920BA00870CC7 /* PhoneWordsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E25338D7180920BA00870CC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E25338A6180920BA00870CC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E25338AD180920BA00870CC7;
+			remoteInfo = PhoneWords;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E25338AE180920BA00870CC7 /* PhoneWords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneWords.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E25338B1180920BA00870CC7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E25338B3180920BA00870CC7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E25338B5180920BA00870CC7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E25338B9180920BA00870CC7 /* PhoneWords-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhoneWords-Info.plist"; sourceTree = "<group>"; };
+		E25338BB180920BA00870CC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E25338BD180920BA00870CC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E25338BF180920BA00870CC7 /* PhoneWords-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhoneWords-Prefix.pch"; sourceTree = "<group>"; };
+		E25338C0180920BA00870CC7 /* PhoneWordsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhoneWordsAppDelegate.h; sourceTree = "<group>"; };
+		E25338C1180920BA00870CC7 /* PhoneWordsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhoneWordsAppDelegate.m; sourceTree = "<group>"; };
+		E25338C4180920BA00870CC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		E25338C7180920BA00870CC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		E25338C9180920BA00870CC7 /* PhoneWordsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhoneWordsViewController.h; sourceTree = "<group>"; };
+		E25338CA180920BA00870CC7 /* PhoneWordsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhoneWordsViewController.m; sourceTree = "<group>"; };
+		E25338CC180920BA00870CC7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E25338D2180920BA00870CC7 /* PhoneWordsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoneWordsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E25338D3180920BA00870CC7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E25338DB180920BA00870CC7 /* PhoneWordsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhoneWordsTests-Info.plist"; sourceTree = "<group>"; };
+		E25338DD180920BA00870CC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E25338DF180920BA00870CC7 /* PhoneWordsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhoneWordsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E25338AB180920BA00870CC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E25338B4180920BA00870CC7 /* CoreGraphics.framework in Frameworks */,
+				E25338B6180920BA00870CC7 /* UIKit.framework in Frameworks */,
+				E25338B2180920BA00870CC7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E25338CF180920BA00870CC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E25338D4180920BA00870CC7 /* XCTest.framework in Frameworks */,
+				E25338D6180920BA00870CC7 /* UIKit.framework in Frameworks */,
+				E25338D5180920BA00870CC7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E25338A5180920BA00870CC7 = {
+			isa = PBXGroup;
+			children = (
+				E25338B7180920BA00870CC7 /* PhoneWords */,
+				E25338D9180920BA00870CC7 /* PhoneWordsTests */,
+				E25338B0180920BA00870CC7 /* Frameworks */,
+				E25338AF180920BA00870CC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E25338AF180920BA00870CC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E25338AE180920BA00870CC7 /* PhoneWords.app */,
+				E25338D2180920BA00870CC7 /* PhoneWordsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E25338B0180920BA00870CC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E25338B1180920BA00870CC7 /* Foundation.framework */,
+				E25338B3180920BA00870CC7 /* CoreGraphics.framework */,
+				E25338B5180920BA00870CC7 /* UIKit.framework */,
+				E25338D3180920BA00870CC7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E25338B7180920BA00870CC7 /* PhoneWords */ = {
+			isa = PBXGroup;
+			children = (
+				E25338C0180920BA00870CC7 /* PhoneWordsAppDelegate.h */,
+				E25338C1180920BA00870CC7 /* PhoneWordsAppDelegate.m */,
+				E25338C3180920BA00870CC7 /* Main_iPhone.storyboard */,
+				E25338C6180920BA00870CC7 /* Main_iPad.storyboard */,
+				E25338C9180920BA00870CC7 /* PhoneWordsViewController.h */,
+				E25338CA180920BA00870CC7 /* PhoneWordsViewController.m */,
+				E25338CC180920BA00870CC7 /* Images.xcassets */,
+				E25338B8180920BA00870CC7 /* Supporting Files */,
+			);
+			path = PhoneWords;
+			sourceTree = "<group>";
+		};
+		E25338B8180920BA00870CC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E25338B9180920BA00870CC7 /* PhoneWords-Info.plist */,
+				E25338BA180920BA00870CC7 /* InfoPlist.strings */,
+				E25338BD180920BA00870CC7 /* main.m */,
+				E25338BF180920BA00870CC7 /* PhoneWords-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E25338D9180920BA00870CC7 /* PhoneWordsTests */ = {
+			isa = PBXGroup;
+			children = (
+				E25338DF180920BA00870CC7 /* PhoneWordsTests.m */,
+				E25338DA180920BA00870CC7 /* Supporting Files */,
+			);
+			path = PhoneWordsTests;
+			sourceTree = "<group>";
+		};
+		E25338DA180920BA00870CC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E25338DB180920BA00870CC7 /* PhoneWordsTests-Info.plist */,
+				E25338DC180920BA00870CC7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E25338AD180920BA00870CC7 /* PhoneWords */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E25338E3180920BA00870CC7 /* Build configuration list for PBXNativeTarget "PhoneWords" */;
+			buildPhases = (
+				E25338AA180920BA00870CC7 /* Sources */,
+				E25338AB180920BA00870CC7 /* Frameworks */,
+				E25338AC180920BA00870CC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhoneWords;
+			productName = PhoneWords;
+			productReference = E25338AE180920BA00870CC7 /* PhoneWords.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E25338D1180920BA00870CC7 /* PhoneWordsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E25338E6180920BA00870CC7 /* Build configuration list for PBXNativeTarget "PhoneWordsTests" */;
+			buildPhases = (
+				E25338CE180920BA00870CC7 /* Sources */,
+				E25338CF180920BA00870CC7 /* Frameworks */,
+				E25338D0180920BA00870CC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E25338D8180920BA00870CC7 /* PBXTargetDependency */,
+			);
+			name = PhoneWordsTests;
+			productName = PhoneWordsTests;
+			productReference = E25338D2180920BA00870CC7 /* PhoneWordsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E25338A6180920BA00870CC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PhoneWords;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "JAMES K ARASIM";
+				TargetAttributes = {
+					E25338D1180920BA00870CC7 = {
+						TestTargetID = E25338AD180920BA00870CC7;
+					};
+				};
+			};
+			buildConfigurationList = E25338A9180920BA00870CC7 /* Build configuration list for PBXProject "PhoneWords" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E25338A5180920BA00870CC7;
+			productRefGroup = E25338AF180920BA00870CC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E25338AD180920BA00870CC7 /* PhoneWords */,
+				E25338D1180920BA00870CC7 /* PhoneWordsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E25338AC180920BA00870CC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E25338C8180920BA00870CC7 /* Main_iPad.storyboard in Resources */,
+				E25338CD180920BA00870CC7 /* Images.xcassets in Resources */,
+				E25338C5180920BA00870CC7 /* Main_iPhone.storyboard in Resources */,
+				E25338BC180920BA00870CC7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E25338D0180920BA00870CC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E25338DE180920BA00870CC7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E25338AA180920BA00870CC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E25338BE180920BA00870CC7 /* main.m in Sources */,
+				E25338CB180920BA00870CC7 /* PhoneWordsViewController.m in Sources */,
+				E25338C2180920BA00870CC7 /* PhoneWordsAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E25338CE180920BA00870CC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E25338E0180920BA00870CC7 /* PhoneWordsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E25338D8180920BA00870CC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E25338AD180920BA00870CC7 /* PhoneWords */;
+			targetProxy = E25338D7180920BA00870CC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E25338BA180920BA00870CC7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E25338BB180920BA00870CC7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E25338C3180920BA00870CC7 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E25338C4180920BA00870CC7 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		E25338C6180920BA00870CC7 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E25338C7180920BA00870CC7 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		E25338DC180920BA00870CC7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E25338DD180920BA00870CC7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E25338E1180920BA00870CC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E25338E2180920BA00870CC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E25338E4180920BA00870CC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhoneWords/PhoneWords-Prefix.pch";
+				INFOPLIST_FILE = "PhoneWords/PhoneWords-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E25338E5180920BA00870CC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhoneWords/PhoneWords-Prefix.pch";
+				INFOPLIST_FILE = "PhoneWords/PhoneWords-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E25338E7180920BA00870CC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PhoneWords.app/PhoneWords";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhoneWords/PhoneWords-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PhoneWordsTests/PhoneWordsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E25338E8180920BA00870CC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PhoneWords.app/PhoneWords";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhoneWords/PhoneWords-Prefix.pch";
+				INFOPLIST_FILE = "PhoneWordsTests/PhoneWordsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E25338A9180920BA00870CC7 /* Build configuration list for PBXProject "PhoneWords" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E25338E1180920BA00870CC7 /* Debug */,
+				E25338E2180920BA00870CC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E25338E3180920BA00870CC7 /* Build configuration list for PBXNativeTarget "PhoneWords" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E25338E4180920BA00870CC7 /* Debug */,
+				E25338E5180920BA00870CC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E25338E6180920BA00870CC7 /* Build configuration list for PBXNativeTarget "PhoneWordsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E25338E7180920BA00870CC7 /* Debug */,
+				E25338E8180920BA00870CC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E25338A6180920BA00870CC7 /* Project object */;
+}
