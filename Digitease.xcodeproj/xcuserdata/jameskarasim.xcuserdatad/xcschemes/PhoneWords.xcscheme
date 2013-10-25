@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E25338AD180920BA00870CC7"
-               BuildableName = "PhoneWords.app"
-               BlueprintName = "PhoneWords"
-               ReferencedContainer = "container:PhoneWords.xcodeproj">
+               BuildableName = "Digitease.app"
+               BlueprintName = "Digitease"
+               ReferencedContainer = "container:Digitease.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E25338D1180920BA00870CC7"
-               BuildableName = "PhoneWordsTests.xctest"
-               BlueprintName = "PhoneWordsTests"
-               ReferencedContainer = "container:PhoneWords.xcodeproj">
+               BuildableName = "DigiteaseTests.xctest"
+               BlueprintName = "DigiteaseTests"
+               ReferencedContainer = "container:Digitease.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E25338AD180920BA00870CC7"
-            BuildableName = "PhoneWords.app"
-            BlueprintName = "PhoneWords"
-            ReferencedContainer = "container:PhoneWords.xcodeproj">
+            BuildableName = "Digitease.app"
+            BlueprintName = "Digitease"
+            ReferencedContainer = "container:Digitease.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E25338AD180920BA00870CC7"
-            BuildableName = "PhoneWords.app"
-            BlueprintName = "PhoneWords"
-            ReferencedContainer = "container:PhoneWords.xcodeproj">
+            BuildableName = "Digitease.app"
+            BlueprintName = "Digitease"
+            ReferencedContainer = "container:Digitease.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E25338AD180920BA00870CC7"
-            BuildableName = "PhoneWords.app"
-            BlueprintName = "PhoneWords"
-            ReferencedContainer = "container:PhoneWords.xcodeproj">
+            BuildableName = "Digitease.app"
+            BlueprintName = "Digitease"
+            ReferencedContainer = "container:Digitease.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
