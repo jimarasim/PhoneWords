@@ -22,6 +22,7 @@
 		E25338D6180920BA00870CC7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E25338B5180920BA00870CC7 /* UIKit.framework */; };
 		E25338DE180920BA00870CC7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E25338DC180920BA00870CC7 /* InfoPlist.strings */; };
 		E25338E0180920BA00870CC7 /* PhoneWordsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E25338DF180920BA00870CC7 /* PhoneWordsTests.m */; };
+		E2C4CCC0181A347400108CAE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2C4CCBF181A347400108CAE /* Default@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		E25338DB180920BA00870CC7 /* DigiteaseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DigiteaseTests-Info.plist"; sourceTree = "<group>"; };
 		E25338DD180920BA00870CC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E25338DF180920BA00870CC7 /* PhoneWordsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhoneWordsTests.m; sourceTree = "<group>"; };
+		E2C4CCBF181A347400108CAE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		E25338A5180920BA00870CC7 = {
 			isa = PBXGroup;
 			children = (
+				E2C4CCBF181A347400108CAE /* Default@2x.png */,
 				E25338B7180920BA00870CC7 /* PhoneWords */,
 				E25338D9180920BA00870CC7 /* PhoneWordsTests */,
 				E25338B0180920BA00870CC7 /* Frameworks */,
@@ -237,6 +240,7 @@
 			files = (
 				E25338C8180920BA00870CC7 /* Main_iPad.storyboard in Resources */,
 				E25338CD180920BA00870CC7 /* Images.xcassets in Resources */,
+				E2C4CCC0181A347400108CAE /* Default@2x.png in Resources */,
 				E25338C5180920BA00870CC7 /* Main_iPhone.storyboard in Resources */,
 				E25338BC180920BA00870CC7 /* InfoPlist.strings in Resources */,
 			);
@@ -334,7 +338,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: JAMES ARASIM (2PE3H9K6G3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: JAMES ARASIM (2PE3H9K6G3)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -353,6 +358,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "";
+				PROVISIONING_PROFILE = "1C30E64F-CD29-4CF3-BC96-41C14A6B69ED";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -375,7 +381,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: JAMES ARASIM (2PE3H9K6G3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: JAMES ARASIM (2PE3H9K6G3)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -387,6 +394,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "";
+				PROVISIONING_PROFILE = "1C30E64F-CD29-4CF3-BC96-41C14A6B69ED";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
