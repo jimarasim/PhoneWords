@@ -210,6 +210,7 @@
 						DevelopmentTeam = 2PE3H9K6G3;
 					};
 					E25338D1180920BA00870CC7 = {
+						DevelopmentTeam = 2PE3H9K6G3;
 						TestTargetID = E25338AD180920BA00870CC7;
 					};
 				};
@@ -440,6 +441,8 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PhoneWords.app/PhoneWords";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -453,6 +456,7 @@
 				);
 				INFOPLIST_FILE = "PhoneWordsTests/DigiteaseTests-Info.plist";
 				PRODUCT_NAME = DigiteaseTests;
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -463,6 +467,8 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PhoneWords.app/PhoneWords";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -472,6 +478,7 @@
 				GCC_PREFIX_HEADER = "PhoneWords/PhoneWords-Prefix.pch";
 				INFOPLIST_FILE = "PhoneWordsTests/DigiteaseTests-Info.plist";
 				PRODUCT_NAME = DigiteaseTests;
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
