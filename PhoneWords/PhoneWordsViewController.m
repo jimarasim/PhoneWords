@@ -47,6 +47,19 @@ NSString* keys[10]={@"0",@"1",@"abc",@"def",@"ghi",@"jkl",@"mno",@"pqrs",@"tuv",
     // Dispose of any resources that can be recreated.
 }
 
+//textfield delegate to limit the number of characters typed to 10
+- (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string {
+    // Prevent crashing undo bug – see note below.
+    if(range.length + range.location > textField.text.length)
+    {
+        return NO;
+    }
+    
+    NSUInteger newLength = [textField.text length] + [string length] - range.length;
+    return newLength <= 10;
+}
+
+
 //dismiss the keyboard when this is called
 - (BOOL)textFieldShouldReturn:(UITextField *)theTextField {
     if (theTextField == self.textField) {
