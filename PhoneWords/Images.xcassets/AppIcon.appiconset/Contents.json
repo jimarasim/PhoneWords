@@ -1,6 +1,18 @@
 {
   "images" : [
     {
+      "size" : "20x20",
+      "idiom" : "iphone",
+      "filename" : "2x20pt.png",
+      "scale" : "2x"
+    },
+    {
+      "size" : "20x20",
+      "idiom" : "iphone",
+      "filename" : "phonewords120 copy 3.png",
+      "scale" : "3x"
+    },
+    {
       "size" : "29x29",
       "idiom" : "iphone",
       "filename" : "phonewords29.png",
@@ -13,10 +25,22 @@
       "scale" : "2x"
     },
     {
+      "size" : "29x29",
+      "idiom" : "iphone",
+      "filename" : "phonewords120 copy 4.png",
+      "scale" : "3x"
+    },
+    {
       "size" : "40x40",
       "idiom" : "iphone",
       "filename" : "phonewords80.png",
       "scale" : "2x"
+    },
+    {
+      "size" : "40x40",
+      "idiom" : "iphone",
+      "filename" : "phonewords120 copy.png",
+      "scale" : "3x"
     },
     {
       "size" : "57x57",
@@ -35,6 +59,12 @@
       "idiom" : "iphone",
       "filename" : "phonewords120.png",
       "scale" : "2x"
+    },
+    {
+      "size" : "60x60",
+      "idiom" : "iphone",
+      "filename" : "phonewords120 copy 5.png",
+      "scale" : "3x"
     }
   ],
   "info" : {
