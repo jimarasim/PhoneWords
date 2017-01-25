@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E20007101E38FC3C008D8358 /* PhoneWordsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E200070F1E38FC3C008D8358 /* PhoneWordsTests.m */; };
 		E25338B2180920BA00870CC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E25338B1180920BA00870CC7 /* Foundation.framework */; };
 		E25338B4180920BA00870CC7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E25338B3180920BA00870CC7 /* CoreGraphics.framework */; };
 		E25338B6180920BA00870CC7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E25338B5180920BA00870CC7 /* UIKit.framework */; };
@@ -26,6 +27,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		E20007121E38FC3C008D8358 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E25338A6180920BA00870CC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E25338AD180920BA00870CC7;
+			remoteInfo = Digitease;
+		};
 		E25338D7180920BA00870CC7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E25338A6180920BA00870CC7 /* Project object */;
@@ -36,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E200070D1E38FC3C008D8358 /* PhoneWordsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoneWordsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E200070F1E38FC3C008D8358 /* PhoneWordsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhoneWordsTests.m; sourceTree = "<group>"; };
+		E20007111E38FC3C008D8358 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E25338AE180920BA00870CC7 /* Digitease.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Digitease.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E25338B1180920BA00870CC7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E25338B3180920BA00870CC7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,6 +71,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		E200070A1E38FC3C008D8358 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E25338AB180920BA00870CC7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -83,12 +101,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E200070E1E38FC3C008D8358 /* PhoneWordsTests */ = {
+			isa = PBXGroup;
+			children = (
+				E200070F1E38FC3C008D8358 /* PhoneWordsTests.m */,
+				E20007111E38FC3C008D8358 /* Info.plist */,
+			);
+			path = PhoneWordsTests;
+			sourceTree = "<group>";
+		};
 		E25338A5180920BA00870CC7 = {
 			isa = PBXGroup;
 			children = (
 				E2C4CCBF181A347400108CAE /* Default@2x.png */,
 				E25338B7180920BA00870CC7 /* PhoneWords */,
 				E25338D9180920BA00870CC7 /* PhoneWordsTests */,
+				E200070E1E38FC3C008D8358 /* PhoneWordsTests */,
 				E25338B0180920BA00870CC7 /* Frameworks */,
 				E25338AF180920BA00870CC7 /* Products */,
 			);
@@ -99,6 +127,7 @@
 			children = (
 				E25338AE180920BA00870CC7 /* Digitease.app */,
 				E25338D2180920BA00870CC7 /* DigiteaseTests.xctest */,
+				E200070D1E38FC3C008D8358 /* PhoneWordsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -161,6 +190,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		E200070C1E38FC3C008D8358 /* PhoneWordsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E20007161E38FC3C008D8358 /* Build configuration list for PBXNativeTarget "PhoneWordsTests" */;
+			buildPhases = (
+				E20007091E38FC3C008D8358 /* Sources */,
+				E200070A1E38FC3C008D8358 /* Frameworks */,
+				E200070B1E38FC3C008D8358 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E20007131E38FC3C008D8358 /* PBXTargetDependency */,
+			);
+			name = PhoneWordsTests;
+			productName = PhoneWordsTests;
+			productReference = E200070D1E38FC3C008D8358 /* PhoneWordsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		E25338AD180920BA00870CC7 /* Digitease */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E25338E3180920BA00870CC7 /* Build configuration list for PBXNativeTarget "Digitease" */;
@@ -206,6 +253,11 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "JAMES K ARASIM";
 				TargetAttributes = {
+					E200070C1E38FC3C008D8358 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E25338AD180920BA00870CC7;
+					};
 					E25338AD180920BA00870CC7 = {
 						DevelopmentTeam = 2PE3H9K6G3;
 					};
@@ -230,11 +282,19 @@
 			targets = (
 				E25338AD180920BA00870CC7 /* Digitease */,
 				E25338D1180920BA00870CC7 /* DigiteaseTests */,
+				E200070C1E38FC3C008D8358 /* PhoneWordsTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		E200070B1E38FC3C008D8358 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E25338AC180920BA00870CC7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -258,6 +318,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		E20007091E38FC3C008D8358 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E20007101E38FC3C008D8358 /* PhoneWordsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E25338AA180920BA00870CC7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -279,6 +347,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		E20007131E38FC3C008D8358 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E25338AD180920BA00870CC7 /* Digitease */;
+			targetProxy = E20007121E38FC3C008D8358 /* PBXContainerItemProxy */;
+		};
 		E25338D8180920BA00870CC7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E25338AD180920BA00870CC7 /* Digitease */;
@@ -322,6 +395,45 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		E20007141E38FC3C008D8358 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = PhoneWordsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = jaemzware.PhoneWordsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Digitease.app/Digitease";
+			};
+			name = Debug;
+		};
+		E20007151E38FC3C008D8358 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = PhoneWordsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = jaemzware.PhoneWordsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Digitease.app/Digitease";
+			};
+			name = Release;
+		};
 		E25338E1180920BA00870CC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -500,6 +612,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		E20007161E38FC3C008D8358 /* Build configuration list for PBXNativeTarget "PhoneWordsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E20007141E38FC3C008D8358 /* Debug */,
+				E20007151E38FC3C008D8358 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		E25338A9180920BA00870CC7 /* Build configuration list for PBXProject "Digitease" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

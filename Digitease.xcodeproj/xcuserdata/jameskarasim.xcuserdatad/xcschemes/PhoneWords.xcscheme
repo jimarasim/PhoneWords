@@ -32,9 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E25338D1180920BA00870CC7"
-               BuildableName = "DigiteaseTests.xctest"
-               BlueprintName = "DigiteaseTests"
+               BlueprintIdentifier = "E200070C1E38FC3C008D8358"
+               BuildableName = "PhoneWordsTests.xctest"
+               BlueprintName = "PhoneWordsTests"
                ReferencedContainer = "container:Digitease.xcodeproj">
             </BuildableReference>
          </TestableReference>

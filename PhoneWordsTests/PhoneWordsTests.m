@@ -2,33 +2,55 @@
 //  PhoneWordsTests.m
 //  PhoneWordsTests
 //
-//  Created by JAMES K ARASIM on 10/11/13.
-//  Copyright (c) 2013 JAMES K ARASIM. All rights reserved.
+//  Created by JAMES K ARASIM on 1/25/17.
+//  Copyright © 2017 JAMES K ARASIM. All rights reserved.
 //
+//  THIS TEST CLASS DEMONSTRATES HOW TO UNIT TEST A VIEW CONTROLLER
 
 #import <XCTest/XCTest.h>
 
-@interface PhoneWordsTests : XCTestCase
+//INCLUDE THE VIEW CONTROLLERS HEADER FILE. THE DEFAULT SEARCH PATH WILL FIND IT IN THIS PROJECTS HEADER FILES
+#import "PhoneWordsViewController.h"
 
+@interface PhoneWordsTests : XCTestCase
+//CREATE A PROPERTY FOR THE VIEW CONTROLLER CLASS TO TEST
+@property (nonatomic) PhoneWordsViewController *vcToTest;
 @end
 
 @implementation PhoneWordsTests
 
-- (void)setUp
-{
+- (void)setUp {
     [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
+    
+    //ALLOCATE AND INITIALIZE THE VIEW CONTROLLER CLASS FOR TESTING
+    self.vcToTest = [[PhoneWordsViewController alloc] init];
+    
 }
 
-- (void)tearDown
-{
+- (void)tearDown {
     // Put teardown code here. This method is called after the invocation of each test method in the class.
     [super tearDown];
 }
 
-- (void)testExample
-{
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+//THIS TEST ASSERTS THE NUMBER OF COLUMNS RETURNED BY THE PICKER VIEW DELEGATE, IN THE VIEWCONTROLLER UNDER TEST, ALWAYS RETURNS 3
+- (void)testNumberOfColumns{
+    NSInteger result = [self.vcToTest numberOfComponentsInPickerView:self.vcToTest.phoneWordsPicker];
+    
+    XCTAssert(result==3);
+}
+
+
+
+- (void)testExample {
+    // This is an example of a functional test case.
+    // Use XCTAssert and related functions to verify your tests produce the correct results.
+}
+
+- (void)testPerformanceExample {
+    // This is an example of a performance test case.
+    [self measureBlock:^{
+        // Put the code you want to measure the time of here.
+    }];
 }
 
 @end
