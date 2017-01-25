@@ -39,17 +39,25 @@
     XCTAssert(result==3);
 }
 
-
+- (void)testNumberOfColumnsPerformance{
+    [self measureBlock:^{
+        NSInteger result = [self.vcToTest numberOfComponentsInPickerView:self.vcToTest.phoneWordsPicker];
+        
+        XCTAssert(result==3);
+    }];
+}
 
 - (void)testExample {
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
+    XCTAssertTrue(1==1);
 }
 
 - (void)testPerformanceExample {
     // This is an example of a performance test case.
     [self measureBlock:^{
         // Put the code you want to measure the time of here.
+        XCTAssertTrue(1==1);
     }];
 }
 

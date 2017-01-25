@@ -38,6 +38,16 @@
                ReferencedContainer = "container:Digitease.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E2610B401E3902610038C33E"
+               BuildableName = "PhoneWordsUITests.xctest"
+               BlueprintName = "PhoneWordsUITests"
+               ReferencedContainer = "container:Digitease.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
