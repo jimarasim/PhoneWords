@@ -39,6 +39,22 @@
     //TEST: TAP PLEASE ENTER 10 DIGITS LABEL
     [[[XCUIApplication alloc] init].otherElements[@"Please enter 10 digits"] tap];
     
+    
+}
+    
+- (void) testEnterNumberThenClear{
+        
+    XCUIApplication *app = [[XCUIApplication alloc] init];
+    XCUIElement *textField = app.textFields[@"10 Digit Phone Number"];
+    [textField tap];
+    [textField typeText:@"2063727265"];
+    
+    XCUIElement *a0mPickerWheel = app.pickerWheels[@"a0m"];
+    [a0mPickerWheel swipeUp];
+    [app.pickerWheels[@"dpa"] swipeUp];
+    [app.pickerWheels[@"pamj"] swipeUp];
+    [app.buttons[@"Clear text"] tap];
+
 }
 
 @end
